@@ -1,0 +1,30 @@
+body{
+    background-image: url('https://img.wallpapersafari.com/desktop/1536/864/64/61/VRP4Wa.jpg');
+    text-align: center; 
+}
+.outer-div{
+    background-color: white;
+    text-align: center;
+    width:60%;
+    height:80%;
+    border-radius:25px;
+    margin-left:20px;
+    padding-top:40px;
+    padding-right:5px;
+    padding-left:5px;
+}
+
+.outer-div img{
+    width:35%;
+    height:40%;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+

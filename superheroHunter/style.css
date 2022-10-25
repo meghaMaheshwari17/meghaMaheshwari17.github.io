@@ -1,0 +1,159 @@
+body {
+    text-align: center;
+    min-height: 93vh;
+    background-color: #485461;
+
+  }
+/* the search box */
+.search-box {
+    width: 350px;
+    position: relative;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:5vh auto;
+  }
+/* where elements are searched */
+.search-input {
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 15px 45px 15px 15px;
+    background-color: #eaeaeb;
+    color: #6c6c6c;
+    border-radius: 6px;
+    border:none;
+    transition: all .4s;
+  }
+
+.search-input:focus {
+    border:none;
+    outline:none;
+    box-shadow: 0 1px 12px #b8c6db;
+    -moz-box-shadow: 0 1px 12px #b8c6db;
+    -webkit-box-shadow: 0 1px 12px #b8c6db;
+}
+/* search button */
+.search-btn {
+    background-color: transparent;
+    font-size: 18px;
+    padding: 6px 9px;
+    margin-left:-45px;
+    border:none;
+    color: #6c6c6c;
+    transition: all .4s;
+    z-index: 10;
+}
+
+  .search-btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    color: black;
+  }
+  
+  .search-btn:focus {
+    outline:none;
+    color:black;
+  }
+
+  /* container of superheroes displayed on the screen */
+.superheroes{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:80%;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+/* individual card of superheroes */
+.card {
+    border-radius: 25px;
+    position: relative;
+    padding: 25px 25px;
+    background-color: #ffc09f;
+    margin: 25px auto;
+    height: auto;
+    max-width: 330px;
+    min-width: 320px;
+    box-shadow: 0 2px 5px #ccc;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+.card-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card-div h3{
+  cursor:pointer;
+}
+.card-div h3:hover{
+  text-decoration: underline;
+}
+  
+.img {
+    height: 180px;
+    border-radius: 10%;
+    margin-right: 25px;
+    cursor: pointer;
+ }
+  
+
+i{
+  cursor:pointer;
+}
+
+.container{
+  display:flex;
+  flex-direction:row;
+}
+
+/* list of fav superheroes */
+#fav-superhero-list{
+  width:20%;
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  align-items: baseline;
+  margin-right:5%;
+  padding:1%;
+  border-left:2px dashed black;
+}
+#fav-superhero-list img{
+  height: 15vh;
+  border-radius: 10%;
+  margin-right: 25px;
+  box-shadow: 0 2px 5px #ccc;
+}
+
+.favList-div{
+   min-width:90%;
+  border-radius: 25px;
+  position: relative;
+  padding: 25px 25px;
+   border:1px solid whitesmoke;
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom:2vh;
+}
+.favList-div:hover{
+  background-color:whitesmoke;
+  color:black;
+  opacity: 0.5;
+}
+
+.favList-div p{
+  cursor:pointer;
+}
+
+.favList-div p:hover{
+  text-decoration: underline;
+}
